@@ -1,0 +1,45 @@
+
+[
+  {
+    "id": 1,
+    "nama": "Singa",
+    "habitat": "Padang rumput dan sabana Afrika",
+    "makanan": "Daging",
+    "faktaUnik": "Singa jantan memiliki rambut lebat di sekitar kepala."
+  },
+  {
+    "id": 2,
+    "nama": "Gajah",
+    "habitat": "Hutan dan padang rumput",
+    "makanan": "Rumput, daun, dan buah",
+    "faktaUnik": "Gajah memiliki belalai yang kuat dan serbaguna."
+  },
+  {
+    "id": 3,
+    "nama": "Jerapah",
+    "habitat": "Sabana Afrika",
+    "makanan": "Daun pohon",
+    "faktaUnik": "Jerapah merupakan hewan darat tertinggi di dunia."
+  },
+  {
+    "id": 4,
+    "nama": "Panda",
+    "habitat": "Hutan pegunungan di Tiongkok",
+    "makanan": "Bambu",
+    "faktaUnik": "Panda menghabiskan sebagian besar waktunya untuk makan bambu."
+  },
+  {
+    "id": 5,
+    "nama": "Harimau",
+    "habitat": "Hutan dan padang rumput",
+    "makanan": "Daging",
+    "faktaUnik": "Setiap harimau memiliki pola belang yang berbeda."
+  },
+  {
+    "id": 6,
+    "nama": "Kelinci",
+    "habitat": "Padang rumput dan hutan",
+    "makanan": "Rumput dan sayuran",
+    "faktaUnik": "Telinga kelinci membantu mendeteksi suara di sekitarnya."
+  }
+]
