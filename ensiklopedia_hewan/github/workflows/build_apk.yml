@@ -1,0 +1,36 @@
+
+name: Build APK Ensiklopedia Hewan
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Mengambil kode proyek
+        uses: actions/checkout@v4
+
+      - name: Memasang Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+
+      - name: Mengambil dependencies
+        run: flutter pub get
+
+      - name: Memeriksa kode
+        run: flutter analyze
+
+      - name: Membuat APK
+        run: flutter build apk --release
+
+      - name: Menyimpan APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: ensiklopedia-hewan-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
